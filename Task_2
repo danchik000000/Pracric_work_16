@@ -5,10 +5,10 @@ class Program
         var c = new Counter("Счётчик", 10);
 
         c = c + 5; 
-        Console.WriteLine(c); // Счётчик: 15
+        Console.WriteLine(c); 
 
         c["value"] = 20; 
-        Console.WriteLine($"Значение через индексатор: {c["value"]}"); // 20
+        Console.WriteLine($"Значение через индексатор: {c["value"]}"); 
 
         Console.ReadKey();
     }
